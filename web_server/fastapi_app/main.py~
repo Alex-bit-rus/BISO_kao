@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from web_server.fastapi_app.database import database
-import web_server.fastapi_app.crud as crud
+import web_server.fastapi_app.crud
 from web_server.fastapi_app.shemas import UserCreate, User
 
 app = FastAPI()

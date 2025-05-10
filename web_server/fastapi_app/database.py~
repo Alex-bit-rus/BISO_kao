@@ -1,6 +1,6 @@
 from databases import Database
 from sqlalchemy import create_engine, MetaData
-from web_server.fastapi_app.models import metadata 
+from models import metadata 
 
 DATABASE_URL = "sqlite:///./test.db"
 
