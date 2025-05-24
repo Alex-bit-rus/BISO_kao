@@ -1,4 +1,4 @@
-from web_server.fastapi_app.main import app
+# from web_server.fastapi_app.main import app
 from fastapi import FastAPI
 from web_server.fastapi_app.database import database
 import web_server.fastapi_app.crud as crud
